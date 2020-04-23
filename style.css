@@ -96,5 +96,29 @@ body,
 
 /* DESKTOP */
 @media (min-width: 1001px) {
+    .mainDiv {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+       .buttonsSection {
+        display: none;
+    }  
+    .formSection, .descriptionSection {
+        width: 50%;
+        height: 90vh;
+        margin: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       position: relative;
+    }
+    .formSection-inputs {
+        display: flex;
+        position: absolute;
+        top:15px;
+        left: 0; 
+    margin: 0 auto; 
+justify-content: center;  }
    
 }

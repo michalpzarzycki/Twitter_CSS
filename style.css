@@ -18,7 +18,25 @@ body,
     display: flex;
     flex-direction: row;
     display: none;
+    
 }
+.formSection-inputs-password, .formSection-inputs-login {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 248, 250);
+    margin-right: 5px;
+    color: rgb(101, 119, 134);
+    border-bottom: 1px solid black;
+
+}
+.formSection-inputs-login>input, .formSection-inputs-password>input {
+    background-color: rgb(245, 248, 250);
+    border: 0px;
+    outline: none;
+    padding:5px;
+    font-size: 15px;
+}
+
 .formSection-welcome {
     margin: 0 auto;
     max-width: 380px;
@@ -127,6 +145,7 @@ border: 1px solid rgb(29,161,242);
     text-decoration: none;
     color: inherit;
     padding-right: 13px;
+    outline: none;
 }
 
 

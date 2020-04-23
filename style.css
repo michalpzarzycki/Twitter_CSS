@@ -4,6 +4,7 @@ body,
     margin:0;
     width: 100%;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -25,6 +26,12 @@ body,
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.formSection-welcome-header > h1 {
+    font-size: 30px;
+    font-weight: bolder;
 }
 .formSection-welcome-buttons {
     display: flex;
@@ -33,12 +40,34 @@ body,
 }
 .formSection-welcome-buttons > * {
     width: 100%;
+    max-width: 100%;
+    cursor: pointer;
+    border-radius: 9999px;
+}
+.formSection-welcome-buttons > button:nth-child(2) {
+    background-color: rgb(29, 161, 242);
+    border: 1px solid transparent;
+    color: white;
+    margin-bottom: 15px;
+    min-height: 39px;
+
+
+}
+.formSection-welcome-buttons>button:nth-child(3) {
+    border: 1px solid rgb(29, 161, 242);
+    background-color: white;
+    margin-bottom: 15px;
+    min-height: 39px;
+
+
 }
 
 .descriptionSection {
     width: 100%;
     padding-bottom: 15px;
     padding-top: 15px;
+    background: rgb(29, 161, 242);
+    color: rgb(255,255,255)
    
 }
 

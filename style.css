@@ -1,0 +1,35 @@
+html,
+body,
+.mainDiv {
+    margin:0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+
+/* MOBILE  */
+
+
+
+
+
+
+
+
+
+/* TABLET */
+@media (min-width: 800px) and (max-width: 1000px) {
+    html, body, .mainDiv {
+        background: wheat;
+    }
+}
+
+
+
+/* DESKTOP */
+@media (min-width: 1001px) {
+    html, body, .mainDiv {
+        background: yellow;
+    }
+}

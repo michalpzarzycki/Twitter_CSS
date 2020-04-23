@@ -4,14 +4,36 @@ body,
     margin:0;
     width: 100%;
     height: 100vh;
-    background: black;
 }
 
 
 /* MOBILE  */
 
-
-
+.formSection {
+    width: 100%;
+}
+.formSection-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    display: none;
+}
+.formSection-welcome {
+    margin: 0 auto;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formSection-welcome-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.formSection-welcome-buttons > * {
+    width: 100%;
+}
 
 
 
@@ -20,16 +42,12 @@ body,
 
 /* TABLET */
 @media (min-width: 800px) and (max-width: 1000px) {
-    html, body, .mainDiv {
-        background: wheat;
-    }
+   
 }
 
 
 
 /* DESKTOP */
 @media (min-width: 1001px) {
-    html, body, .mainDiv {
-        background: yellow;
-    }
+   
 }

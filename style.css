@@ -46,6 +46,20 @@ body,
     max-width: 380px;
     margin: 0 auto;
 }
+.buttonsSection {
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+   
+}
+
+.buttonsSection-contentDiv {
+    max-width: 380px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

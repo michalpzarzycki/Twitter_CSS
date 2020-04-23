@@ -36,6 +36,19 @@ body,
     padding:5px;
     font-size: 15px;
 }
+.formSection-inputs-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formSection-inputs-submit > button {
+    border: 1px solid rgb(29, 161, 242);
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 161, 242);
+    border-radius: 9999px;
+    padding:10px;
+    font-weight: bolder;
+}
 
 .formSection-welcome {
     margin: 0 auto;
